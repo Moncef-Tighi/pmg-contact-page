@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       custom1: ["BebasNeue"],
+      cursive: ["cursive"],
     },
     extend: {
       fontFamily: {
