@@ -12,19 +12,56 @@
     <div
       class="flex flex-col min-h-screen items-center justify-center w-screen z-10 relative text-white"
     >
-      <div class="p-4 bg-slate-200 rounded-3xl shadow-md">
+      <div class="p-4 rounded-3xl shadow-md">
         <div class="animate-ping"></div>
         <img src="logo-pmg.png" class="w-48" />
       </div>
       <h1 class="text-4xl">PLAY MODE SPA</h1>
-      <h2 class="text-2xl">CONTACTEZ-NOUS</h2>
-      <button>E-Commerce</button>
-      <button>Facebook</button>
-      <button>Instagram</button>
-      <button>Tiktok</button>
-      <button>EMail</button>
+      <h2 class="text-2xl ">CONTACTEZ-NOUS</h2>
+      <section class="flex gap-24 flex-wrap mt-6 p-4">
+        <article>
+          <ul class="flex flex-col" style="align-items: start;">
+            <li class="flex gap-4 mb-4 items-center justify-center">
+              <div class="bg-white rounded-full p-2 ">
+                <img src="gps.png" class="w-8"/>
+               </div>
+              <div>
+                <h3 class="font-bold text-2xl text-red-600">Adresse : </h3>
+                <p class="text-lg"> Propriété N° 233, Bloc 04, Amara Cheraga</p>
+              </div>
+            </li>
+            <li class="flex gap-4 mb-4 items-center justify-center">
+              <div class="bg-white rounded-full p-2 ">
+                <img src="phone.png" class="w-8"/>
+               </div>
+              <div>
+                <h3 class="font-bold text-2xl text-red-600">Phone : </h3>
+                <p class="text-lg"> +213 011111111</p>
+              </div>
+            </li>            
+            <li class="flex gap-4 mb-4 items-center justify-center">
+              <div class="bg-white rounded-full p-2 ">
+                <img src="mail.png" class="w-8"/>
+               </div>
+              <div>
+                <h3 class="font-bold text-2xl text-red-600">E-Mail : </h3>
+                <p class="text-lg">Achat : ecommerce@pmg.dz</p>
+                <p class="text-lg">Réclamation : reclamation@pmg.dz</p>
+              </div>
+            </li>
+          </ul>
+        </article>
 
-      <div class="w-full bg-black bg-opacity-50 mt-10 h-24 flex items-center">
+        <article>
+          <button>E-Commerce</button>
+          <button>Facebook</button>
+          <button>Instagram</button>
+          <button>Tiktok</button>
+          <button>EMail</button>
+        </article>
+      </section>
+
+      <div class="w-full bg-white bg-opacity-50 mt-10 h-24 flex items-center">
         <aside
           class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
         >
@@ -69,7 +106,7 @@
       </div>
     </div>
     <div
-      class="fixed top-0 bg-gradient-to-tr from-red-500 to-red-600 opacity-80 w-screen h-screen z-0"
+      class="fixed top-0 bg-gradient-to-tr from-black to-gray-800 opacity-80 w-screen h-screen z-0"
     ></div>
   </body>
 </html>
