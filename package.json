@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "concurrently \"postcss ./src/style.css -o ./src/output.css --watch --verbose\" \"browser-sync start --server 'src' --files 'src/**/*.*'\"",
     "build": "postcss ./src/style.css -o ./src/output.css --verbose",
-    "format": "prettier src/**/*.{html,css,js} --write"
+    "format": "prettier src/**/*.{html,css,js} --write",
+    "watch" : "npx tailwindcss -i ./src/style.css -o ./src/output.css --watch"
   },
   "keywords": [
     "tailwindcss starter",

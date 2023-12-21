@@ -4,7 +4,7 @@
 
 @layer base {
   @font-face {
-    font-family: "BebasNeue";
+    font-family: 'BebasNeue';
     font-weight: 400;
     src: url(./fonts/BebasNeue-Regular.ttf) format('ttf');
   }
