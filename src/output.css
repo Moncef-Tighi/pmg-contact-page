@@ -621,16 +621,24 @@ a {
   width: 2.5rem;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
 .w-24 {
   width: 6rem;
 }
 
 .w-48 {
   width: 12rem;
-}
-
-.w-8 {
-  width: 2rem;
 }
 
 .w-full {
@@ -686,12 +694,12 @@ a {
   justify-content: center;
 }
 
-.gap-3 {
-  gap: 0.75rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-6 {
@@ -822,7 +830,15 @@ a {
           mask-image: linear-gradient(to right,transparent 0, black 128px, black calc(100% - 128px),transparent 100%);
 }
 
+.hover\:pause:hover>ul {
+  animation-play-state: paused;
+}
+
 @media (min-width: 640px) {
+  .sm\:w-12 {
+    width: 3rem;
+  }
+
   .sm\:flex-nowrap {
     flex-wrap: nowrap;
   }

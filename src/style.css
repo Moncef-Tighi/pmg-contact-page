@@ -13,3 +13,9 @@
     color: #0062fe;
   }
 }
+
+@layer utilities {
+  .pause>ul {
+    animation-play-state: paused;
+  }
+}
