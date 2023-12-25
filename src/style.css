@@ -3,11 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
-    font-family: 'BebasNeue';
-    font-weight: 400;
-    src: url(./fonts/BebasNeue-Regular.ttf) format('ttf');
-  }
   a {
     text-decoration: underline;
     color: #0062fe;

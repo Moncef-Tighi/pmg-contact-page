@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: "BebasNeue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -444,14 +444,6 @@ video {
   display: none;
 }
 
-@font-face {
-  font-family: 'BebasNeue';
-
-  font-weight: 400;
-
-  src: url(./fonts/BebasNeue-Regular.ttf) format('ttf');
-}
-
 a {
   text-decoration: underline;
   color: #0062fe;
@@ -633,6 +625,10 @@ a {
   width: 4rem;
 }
 
+.w-20 {
+  width: 5rem;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -731,10 +727,6 @@ a {
   --tw-bg-opacity: 0.6;
 }
 
-.bg-\[url\(\'https\:\/\/images-wixmp-ed30a86b8c4ca887773594c2\.wixmp\.com\/f\/cf80098c-96f1-442b-a173-ffdb305b390e\/db8t2kk-e72e4220-7819-4198-a5ed-49ecb1f786b8\.jpg\?token\=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9\.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NmODAwOThjLTk2ZjEtNDQyYi1hMTczLWZmZGIzMDViMzkwZVwvZGI4dDJray1lNzJlNDIyMC03ODE5LTQxOTgtYTVlZC00OWVjYjFmNzg2YjguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0\.OahKJgjBmjbewwctnpqgWETYASiWzEnDX2GG_BmsYOw\'\)\] {
-  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cf80098c-96f1-442b-a173-ffdb305b390e/db8t2kk-e72e4220-7819-4198-a5ed-49ecb1f786b8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NmODAwOThjLTk2ZjEtNDQyYi1hMTczLWZmZGIzMDViMzkwZVwvZGI4dDJray1lNzJlNDIyMC03ODE5LTQxOTgtYTVlZC00OWVjYjFmNzg2YjguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.OahKJgjBmjbewwctnpqgWETYASiWzEnDX2GG_BmsYOw');
-}
-
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
@@ -747,10 +739,6 @@ a {
 
 .to-gray-800 {
   --tw-gradient-to: #1f2937 var(--tw-gradient-to-position);
-}
-
-.fill-white {
-  fill: #fff;
 }
 
 .p-1 {
@@ -767,10 +755,6 @@ a {
 
 .font-cursive {
   font-family: cursive;
-}
-
-.font-custom1 {
-  font-family: BebasNeue;
 }
 
 .text-2xl {
@@ -814,15 +798,6 @@ a {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.brightness-0 {
-  --tw-brightness: brightness(0);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.filter {
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .\[mask-image\:_linear-gradient\(to_right\2c transparent_0\2c _black_128px\2c _black_calc\(100\%-128px\)\2c transparent_100\%\)\] {
